@@ -25,6 +25,9 @@ Source0:        %{name}-%{version}.tar.bz2
 
 Group:          System/YaST
 License:        GPL-2.0
+
+Conflicts: yast2-network <= 3.1.5
+
 # should be required by devtools
 BuildRequires:  perl-XML-Writer pkgconfig rpm
 BuildRequires:  update-desktop-files
